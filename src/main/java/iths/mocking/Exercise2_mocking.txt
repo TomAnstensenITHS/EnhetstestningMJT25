@@ -1,0 +1,11 @@
+The purpose of this exercise is to mock the Userservice.java file.
+
+1. Create a test class.
+2. Write a test that
+    - Sets up a mock userRepository
+    - Sets up a mock userService
+    - Creates a new user with an 'id' and a 'name'
+    - Updates the users name to a new one
+    - Asserts that the user has the new name
+
+3. Try to add the when().thenReturn() and verify() methods to see the different outputs.
